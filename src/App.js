@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Form from "./components/form"
+import MainForm from "./components/MainForm/MainForm";
 
 function App() {
   return (
     <div className="App">
     
 
-   <Form/> 
+   <MainForm/> 
 
     </div>
   );
