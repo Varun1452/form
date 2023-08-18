@@ -3,7 +3,7 @@ import MainForm from "./components/MainForm/MainForm";
 
 function App() {
   return (
-    <div className="App">
+    <div >
     
 
    <MainForm/> 
