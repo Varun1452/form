@@ -1,52 +1,70 @@
 .mainHeading{
-      text-align: center;
-      color: white;
-      font-size: 30px;
-      padding: 20px;
-      margin: 35px;
-  }
-  .mainContainer{
-      width: 400px;
-      margin: 100px auto 0px auto;
-  }
-  
-  .mainForm{
-      background-color: (0,0,0,0.5);
-      width: 100%;
-      font-size: 18px;
-      border-radius: 5px;
-      border: 1px solid #fff;
-  
-  }
-  .mainLabel{
-      font-size: 25px;
-      color: white;
-  }
-  
-  body{
-      background-image: url(../../assets/firewatch-tower-.jpg);
-  }
-  
-  .formBox{
-      margin: 40px;
-  }
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    margin: 35px;
+}
+.mainContainer{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
 
-  .mainInput{
-      width: 300px;
-  }
+.mainForm{
+    background-color: (0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #fff;
 
-  .mainBtn{
-      width: 306px;
-      padding: 7px;
-      font-size: 16px;
-      margin-top: 10px;  
+}
+.mainLabel{
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    background-image: url(../../assets/firewatch-tower-.jpg);
+}
+
+.formBox{
+    margin: 40px;
+}
+
+.mainInput{
+    width: 300px;
+}
+
+.mainBtn{
+    width: 306px;
+    padding: 7px;
+    font-size: 16px;
+    margin-top: 10px;  
 }
 
 .ErrMessage{
-    color: red;
-    font-size: medium;
+  color: red;
+  font-size: medium;
 }
 
 .Sucess{
-    color: green;
+  color: green;
+}
+
+.PassMessage{
+  color: rgb(0, 255, 26);
+  font-size: 30px;
+  width: 100px;
+  margin:  auto;
+  padding: auto;
+  font-weight: bold;
+}
+.FailMessage{
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  width: 100px;
+  margin: auto;
+  padding: auto;
+  font-weight: bold;
+
 }
